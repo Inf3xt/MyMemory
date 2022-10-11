@@ -22,4 +22,5 @@ But you would need to edit some of the stuff in main.py, like tranlation languag
 
 ## Credits
 All rights to RapidAPI and the creator of MyMemory.
+<br>
 Inf3xt
