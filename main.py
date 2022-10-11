@@ -8,8 +8,8 @@ with open('creds.json', 'r') as f:
 class MyMemory:
 	def __init__(self):
 		self.headers = {
-			"X-RapidAPI-Key": "",
-			"X-RapidAPI-Host": ""
+			"X-RapidAPI-Key": data['RapidApi_Key'],
+			"X-RapidAPI-Host": data['RapidApi_Host']
 		}
 
 	def translate(self, original="Hello World!", from_lang="en", to_lang="es", key=None):
